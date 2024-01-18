@@ -1,0 +1,18 @@
+[[source]] #사용할소스
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages] #개발에만필요한패키지(비어있음)
+
+[packages] #프로젝트에서필요한패키지
+pytest = "*"
+ttkbootstrap = "*"
+sphinx = "*"
+pygments = "*"
+docutils = "*"
+pyyaml = "*"
+hypothesis = "*"
+
+[requires] #사용할파이썬버전
+python_version = "3"
